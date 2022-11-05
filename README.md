@@ -1,1 +1,1 @@
-# edits-international
+Edits International is the name of my wife's business.  (The website is no longer in use because her business model has changed somewhat.)  The first version of the website (which was created by someone else) was static and not mobile-responsive.  With no prior experience in HTML or CSS, I added a working contact form, made the entire site mobile-responsive, and updated the styling.
