@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Edits International - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="samples.html">Samples</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1 class="large">Edits International</h1>
+                    <h2><em>Helping people find the words to succeed</em></h2>
+                    <h3>For the past 20 years Edits International has helped clients in business, industry, and academia communicate more effectively.</h3>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4">
+                <div class="rightside-col">
+                    <div class="testimonialBox">
+                        <div class="testimonial">
+                            <p style="color:white;">The edit was exceptional: first of all, [my editor was] able to write as I would . . . in Italian, only better; second, the edit made me see the manuscript from a different perspective, so I could cut and make it more concise and sequential.</p>
+                            <p class="testimonialHome">- Elena DiMartino, biomedical researcher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="section-2-header">Our Services</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="image">
+                        <a href="services.html#writing"><img src="images/service_writing.png"></a>
+                    </div>
+                    <h3>Online Text Editing</h3>
+                    <p>Revise important documents written in English</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="image">
+                        <a href="services.html#conversation"><img src="images/service_conversation.png"></a>
+                    </div>
+                    <h3>Conversation Coaching</h3>
+                    <p>Speak more confidently in American English</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="image">
+                        <a href="services.html#presentation"><img src="images/service_presentation.png"></a>
+                    </div>
+                    <h3>Presentation Preparation</h3>
+                    <p>Prepare professional presentations for work or school</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="footer-1">
+        <div class="row">
+            <h5>Copyright 2022 Edits International, LLC. All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script>
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body></html>

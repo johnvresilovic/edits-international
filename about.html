@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Edits International - About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="samples.html">Samples</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1 class="large">About</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1><em>Helping people find the words to succeed</em></h1>
+                    <h3>For the past 20 years, Edits International has helped clients in business, industry, and academia communicate more effectively.</h3>
+
+                    <h3>Located in Pittsburgh, PA (USA), Edits International is owned by Nancy Downes (MA Linguistics, MA Professional Writing). Ms. Downes has worked as a technical writer and editor, medical writer, university-level instructor, and corporate communications manager.</h3>
+
+                    <h3>Ms. Downes works with a small staff of experienced and highly-qualified editors, linguists (ESL instructors), and businesspeople who help clients learn new skills and succeed in an English-speaking environment through:</h3>
+
+                    <ul id="servicesLinks">
+                        <li><a href="services.html#linkTextEdit">writing (Text Editing)</a></li>
+                        <br>
+                        <li><a href="services.html#linkConversation">conversation (Conversation Coaching)</a></li>
+                        <br>
+                        <li><a href="services.html#linkPresentation">speaking in public (Presentation Preparation)</a></li>
+                    </ul>
+
+                    <h3>We appreciate your interest in Edits International and we look forward to helping you!</h3>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4">
+                <div class="rightside-col">
+                    <div class="testimonialBox">
+                        <div class="testimonial">
+                            <p>[Edits International] helped me finalize the text for a collection of papers on Soviet foreign policy. The original text was written in English and included translations from Slavic languages as well.</p>
+                            <p>The work was done in a very short time. The editor helped me clarify important points and greatly improved the style of the text while still maintaining my particular perspective. Following the publication of the collection, I received compliments from American colleagues about the precision and clarity of the language.</p>
+                            <p>[My editor] was extremely patient in discussing changes to the text. With very rare professional skills and human qualities, she was one of the best editors I have ever met.</p>
+                            <p class="testimonialName">- Oleg Ken, European University at St. Petersburg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <footer class="footer-1">
+        <div class="row">
+            <h5>Copyright 2022 Edits International, LLC. All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script>
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body></html>
