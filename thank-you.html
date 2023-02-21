@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Edits International - Thank You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="samples.html">Samples</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                    <h1 class="large">Thanks for your interest!</h1>
+                    <h2>You are being redirected to our home page.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script>
+                setTimeout(function() {
+                    window.location.replace("index.html"); //will redirect to main page (index.html)
+                }, 5000); //will call the function after 5 secs.
+            </script>
+    
+    <footer class="footer-1">
+        <div class="row">
+            <h5>Copyright 2022 Edits International, LLC. All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script>
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body></html>
